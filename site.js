@@ -1,4 +1,4 @@
-$("#arrowRotate").click(function() { 
+$(".dog").click(function() { 
       var _this = $(this);
       var current = _this.attr("src");
       var swap = _this.attr("data-swap");     
