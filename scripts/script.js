@@ -1,5 +1,4 @@
 console.log('script here');
-
 $(document).ready(function(){
    $("#arrowRotate").click(function() {
     var swapImage = $("#arrowGrey").attr("data-swap");
@@ -8,4 +7,4 @@ $(document).ready(function(){
         id: 'arrowOrange'
     });
 });
-}
+})
