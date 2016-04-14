@@ -8,3 +8,8 @@ body {
 h1 {
 	font-size: 4em !important;
 }
+
+.bone {
+	height: .8em;
+	line-height: 25% !important;
+}
