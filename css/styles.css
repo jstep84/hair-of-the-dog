@@ -10,11 +10,10 @@ h1 {
 }
 
 #hipdog {
-    margin: 1em 0 1em 0;
     width: 100%;
     height: auto;
     border: 10px solid white;
-    border-radius: 100%;
+    border-radius: 27%;
     position: relative;
 }
 
