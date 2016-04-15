@@ -9,6 +9,15 @@ h1 {
 	font-size: 4em !important;
 }
 
+#hipdog {
+    margin: 5em 0 5em 0;
+    width: 100%;
+    height: auto;
+    border: 10px solid white;
+    border-radius: 100%;
+    position: relative;
+}
+
 .bone {
 	height: .8em;
 }
@@ -26,12 +35,9 @@ h1 {
 
 #map {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 80% !important;
     height: 100% !important;
     margin: 2em;
