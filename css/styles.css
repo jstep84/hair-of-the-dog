@@ -24,3 +24,7 @@ h1 {
 	margin: 0em 1em 2em 1em;
 }
 
+#map {
+	width: 500px;
+    height: 400px;
+}
