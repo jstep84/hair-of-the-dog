@@ -23,6 +23,23 @@ h1 {
     position: relative;
 }
 
+.menu {
+    list-style: none;
+    font-size: 2.5em;
+}
+
+.menuitems {
+    color : #25809b;
+    border: 2px solid #25809b;
+    background-color: white;
+    margin-top: .5em;
+}
+
+#menumargin {
+    margin-top: 1em;
+    margin-right: em;
+}
+
 .bone {
 	height: .8em;
 }
