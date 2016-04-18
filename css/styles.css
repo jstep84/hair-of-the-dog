@@ -10,9 +10,8 @@ h1 {
 }
 
 .title {
+    font-family: 'Oleo Script', Helvetica, sans-serif;
     color : #25809b;
-    background-color: white;
-    border: 4px dashed;
 }
 
 #hipdog {
