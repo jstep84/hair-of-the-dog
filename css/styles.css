@@ -9,7 +9,14 @@ h1 {
 	font-size: 4em !important;
 }
 
+.title {
+    color : #25809b;
+    background-color: white;
+    border: 4px dashed;
+}
+
 #hipdog {
+    margin: 2em 0 2em 0;
     width: 50%;
     height: auto;
     border-radius: 100%;
