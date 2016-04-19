@@ -16,9 +16,8 @@ h1 {
 
 #hipdog {
     margin: 2em 0 2em 0;
-    width: 50%;
+    width: 100%;
     height: auto;
-    border-radius: 100%;
     position: relative;
 }
 
