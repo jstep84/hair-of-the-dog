@@ -1,16 +1,3 @@
-$(window).scroll(
-{
-    previousTop: 0
-},
-function () {
-   var currentTop = $(window).scrollTop();
-   if (currentTop < this.previousTop) {
-       $(".navbar").hide();
-   } else {
-       $(".navbar").show();
-    }
-    this.previousTop = currentTop;
-});
 
 $(".dog").click(function() { 
       var _this = $(this);
