@@ -59,9 +59,13 @@ h1 {
     padding-bottom: 75%;
     height: 0;
     overflow: hidden;
-    width: 80% !important;
-    height: 100% !important;
+    width: 90% !important;
     margin: 2em;
+    border: 1em solid white;
+}
+
+#aboutcontain {
+    margin-top: 2em;
 }
 
 @media (max-width: 720px) {
