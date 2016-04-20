@@ -35,8 +35,10 @@ h1 {
     color : #25809b;
     border: 2px solid #25809b;
     background-color: white;
+    width: 50%;
+    margin:0 auto;
     margin-top: .5em;
-    width: 90%;
+    border-radius: 1em;
 }
 
 .bone {

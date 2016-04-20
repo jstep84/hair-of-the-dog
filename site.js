@@ -1,4 +1,3 @@
-
 $(".dog").click(function() { 
       var _this = $(this);
       var current = _this.attr("src");
@@ -7,13 +6,19 @@ $(".dog").click(function() {
 }); 
 
 function initMap() {
-        var mapDiv = document.getElementById('map');
-        var map = new google.maps.Map(mapDiv, {
-          center: {lat: 46.004748, lng: -112.501575},
-          zoom: 16
-        });
-      }
-      
+  var myLatLng = {lat: 46.004748, lng: -112.501575};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+}
 console.log("map works");
 
 
